@@ -12,7 +12,6 @@ function Card({ imagen, nombre, estado }: Props) {
       color="#7df9ff"
       speed={1}
       chaos={0.12}
-      thickness={2}
       style={{ borderRadius: 16 }}
     >
       <img src={imagen} alt="" />
